@@ -3,5 +3,5 @@ function submit() {
     message = encodeURIComponent(message.trim());
     var link = "mailto:melrosejonte@gmail.com?subject=Website%20Order&body=";
     link = link + message;
-    window.open(link, '_blank');
+    window.open(link);
 }
