@@ -1,7 +1,9 @@
 /* iphone 5 */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;700&display=swap');
 *, body, html {
   padding: 0px;
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 .main-content {
   background-image: url("background.jpg");
@@ -21,7 +23,6 @@
 }
 .title {
   font-size: 25px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
   padding: 10px;
 }
 .about {
@@ -33,9 +34,10 @@
   background-color: rgba(245, 222, 179, .8);
   padding: 1%;
 }
-h2 {
+h1, h2 {
   margin-top: 20px;
   text-align: center;
+  font-family: 'Fredoka One', cursive;
 }
 .content {
   margin: auto;
@@ -68,7 +70,7 @@ h2 {
 .bundle {
   font-weight: bold;
 }
-form {
+.form {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -91,6 +93,9 @@ textarea {
 
 /* iphone 6/7/8 */
 @media only screen and (min-width: 374px) and (orientation: portrait) {
+  h2 {
+    font-size: 30px;
+  }
   .item {
     max-width: 40%;
   }
@@ -121,6 +126,7 @@ textarea {
 @media only screen and (min-width: 1000px) {
   .title {
     padding-top: 50px;
+    font-size: 40px;
   }
   .about {
     width: 50%;

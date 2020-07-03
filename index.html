@@ -62,14 +62,13 @@
           <p class="itemName"><span class="bundle">Bundle J</br></span>600 Gold Nuggets - $8.99</p>
         </div>
       </div>
-      <form enctype="text/plain" action="mailto:melrosejonte@gmail.com" method="GET">
+      <div class="form">
         <h2 class="emailtitle">Contact</h2>
         <div class="email">
-          <input type="hidden" name="subject" id="subject" type="text" class="input" value="AC Order">
-          <textarea class="emailbody" name="body" id="body">Message me for purchase.</textarea>
+          <textarea class="emailbody" name="body" id="messagebody">Message me for purchase.</textarea>
         </div>
-        <div><input type="submit" value="Send Email" class="button is-primary"></div>
-      </form>
+        <button onClick="submit()" class="button is-primary">Send Email</button>
+      </div>
     </div>
     <script type="text/javascript" src="main.js"></script>
   </body>
