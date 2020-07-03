@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+}
+.title {
+  font-size: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.content {
+  text-align: center;
+  display: inline-block;
+}
+.item {
+  max-width: 20%;
+  height: auto;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.item img {
+  max-width: 100%;
+  display: inline-block;
+  /* padding: 10px; */
+}
+.emailbody {
+  width: 50%;
+  height: 200px;
+}
