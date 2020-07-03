@@ -4,6 +4,8 @@
   margin: 0px;
 }
 .main-content {
+  background-image: url("background.jpg");
+  /* background-size: cover; */
   padding: 0px;
   margin: 0px;
 }
@@ -22,13 +24,28 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
   padding: 10px;
 }
+.about {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 80%;
+  border: 1px solid black;
+  background-color: rgba(245, 222, 179, .8);
+  padding: 1%;
+}
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
 .content {
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
   text-align: center;
-  margin: 20px;
+  padding: 0px 20px;
+  /* padding-bottom: 40px; */
 }
 .item {
   align-items: center;
@@ -41,21 +58,29 @@
   padding: 10px;
   border: 1px solid black;
   margin: 5px;
+  background-color: rgba(245, 222, 179, .8);
 }
 .item img {
   max-width: 100%;
   display: inline-block;
   /* padding: 10px; */
 }
-.itemName {
+.bundle {
   font-weight: bold;
 }
 form {
   width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 30px;
 }
 .emailbody {
   width: 100%;
   height: 200px;
+}
+textarea {
+  padding: 10px;
+  max-width: 80%;
 }
 
 /* iphone 6/7/8 */
@@ -76,12 +101,18 @@ form {
 }
 
 @media only screen and (min-width: 767px) and (orientation: portrait) {
+  .about {
+    width: 70%;
+  }
   .item {
     max-width: 27%;
   }
 }
 
 @media only screen and (min-width: 1000px) {
+  .about {
+    width: 50%;
+  }
   .content {
     margin-left: 10%;
     margin-right: 10%;
