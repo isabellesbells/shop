@@ -1,5 +1,19 @@
+*, body, html {
+  padding: 0px;
+  margin: 0px;
+}
+.main-content {
+  padding: 0px;
+  margin: 0px;
+}
 .header {
+  margin: 0px;
+  padding: 0px;
   text-align: center;
+  background-image: url("header.jpg");
+  background-position: bottom;
+  background-color: black;
+  height: 200px;
 }
 .title {
   font-size: 30px;
@@ -8,6 +22,8 @@
 .content {
   text-align: center;
   display: inline-block;
+  margin: 20px;
+  width: 100%;
 }
 .item {
   max-width: 20%;
@@ -21,6 +37,9 @@
   max-width: 100%;
   display: inline-block;
   /* padding: 10px; */
+}
+.itemName {
+  font-weight: bold;
 }
 .emailbody {
   width: 50%;
